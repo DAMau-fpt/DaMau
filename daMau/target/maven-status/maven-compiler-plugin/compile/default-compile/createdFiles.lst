@@ -4,6 +4,7 @@ com\mycompany\damau\DangNhapJDialog.class
 System\Controller$4.class
 System\Controller$1.class
 com\mycompany\damau\LoginJFrame$1.class
+ConnectDB\ConnectDB.class
 System\Controller.class
 System\Controller$2.class
 com\mycompany\damau\LoginJFrame.class
