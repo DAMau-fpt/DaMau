@@ -6,7 +6,6 @@ package System;
 
 import java.awt.BorderLayout;
 import java.awt.Font;
-import java.sql.Connection;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import javax.swing.JFrame;
@@ -19,13 +18,12 @@ import javax.swing.Timer;
  * @author Admin
  */
 public class Controller extends javax.swing.JFrame {
-        
+
     /**
      * Creates new form Controller
      */
     public Controller() {
         initComponents();
-
     }
     /**
      * This method is called from within the constructor to initialize the form.
@@ -305,7 +303,6 @@ public class Controller extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Controller().setVisible(true);
-                
             }
         });
     }
